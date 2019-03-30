@@ -6,6 +6,11 @@ main: src/main.c lua
 lua:
 	cd lua-5.3.5/src && make generic CC='emcc'
 
+publish:
+	cp src/index.html index.html
+	cp src/lua.js lua.js
+	cp src/lua.wasm lua.wasm
+
 clean:
 	cd lua-5.3.5/;make clean
 	rm src/lua.js src/lua.wasm
