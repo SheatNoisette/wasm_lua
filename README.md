@@ -7,6 +7,12 @@ Each update is executed in a unique VM instance via WASM + emscripten.
 
 Currently test on Firefox 52.0 but probably works on other platforms as well.
 
+# Building lua-wasm
+Just run `make`, you will need Emscripten SDK.
+
+## Ubuntu
+__Don't use Emscripten Ubuntu package!__
+
 # Why?
 [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)) is a fast, highly embeddable VM that boasts a wide set of features allowing it to be adapted to a diverse set of domains and platforms.
 

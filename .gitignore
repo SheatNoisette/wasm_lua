@@ -1,2 +1,17 @@
+# C
 **/*.o
 **/*.a
+
+# Ignore Luadocs
+doc/
+
+# Generated files
+lua.wasm
+lua.js
+
+# VsCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
