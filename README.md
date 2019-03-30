@@ -2,6 +2,7 @@
 Lua VM running in your browser!
 Each update is executed in a unique VM instance via WASM + emscripten.
 Tested on Firefox 66.0
+[Live Demo](https://sheatnoisette.github.io/wasm_lua/)
 
 # Building lua-wasm
 Just run `make`, you will need Emscripten SDK.
