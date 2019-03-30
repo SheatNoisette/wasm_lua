@@ -9,13 +9,11 @@ luac
 # Ignore Luadocs
 doc/
 
-# Ignore index
-!src/index.html
-index.html
-
 # Generated files
-lua.wasm
-lua.js
+!lua.wasm
+!lua.js
+src/lua.wasm
+src/lua.js
 
 # VsCode
 .vscode/*
