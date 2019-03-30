@@ -2,6 +2,10 @@
 **/*.o
 **/*.a
 
+# Lua interpreter
+lua
+luac
+
 # Ignore Luadocs
 doc/
 
